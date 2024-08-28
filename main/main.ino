@@ -23,9 +23,9 @@ void loop() {
   if (lightValue > 700) {
     displayDayFace();
   } else {
-    if (soilValue <= 341) {
+    if (soilValue <= 600) {
       displayHappyFace();
-    } else if (soilValue <= 682) {
+    } else if (soilValue <= 900) {
       displayNeutralFace();
     } else {
       displaySadFace();
